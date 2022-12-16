@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[246]:
-
 
 import plotly.graph_objects as go
 import matplotlib.pyplot as plt
@@ -88,10 +86,7 @@ figneww.update_layout(margin=dict(l=20, r=20, t=20, b=20),
           
 figneww.show()
 
-
-
-# In[245]:
-
+####################
 
 
 n=2;
@@ -145,8 +140,7 @@ axs[3][1].set_xlabel('$t\quad[days]$')
 
 plt.tight_layout( pad=1.08, h_pad=None, w_pad=None, rect=None)
 
-
-# In[240]:
+###############
 
 
 
@@ -205,9 +199,7 @@ ax.set_zlabel('$t\quad[days]$',labelpad=10)
 
 cbar.set_label('$u(x,y,0,t)\quad[cells/\mu m^3/days]$')
 
-
-# In[242]:
-
+#############
 
 
 
@@ -264,10 +256,4 @@ ax.set_ylabel('$y\quad[\mu m]$',labelpad=10)
 ax.set_zlabel('$t\quad[days]$',labelpad=10)
 
 cbar.set_label('$v(x,y,0,t)\quad[cells/\mu m^3/days]$')
-
-
-# In[ ]:
-
-
-
 
